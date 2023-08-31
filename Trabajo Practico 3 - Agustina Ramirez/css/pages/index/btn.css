@@ -1,0 +1,14 @@
+.btn {
+  color: #CC0000;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: 0;
+  font-size: 1rem;
+  align-self: end;
+  background-color: rgb(255, 255, 204);
+}
+.btn i {
+  color: white;
+}
+
+/*# sourceMappingURL=btn.css.map */

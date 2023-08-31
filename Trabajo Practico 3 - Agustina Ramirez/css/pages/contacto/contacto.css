@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Asap";
+  background-color: #1C1F44;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+@font-face {
+  font-family: "Asap";
+  src: url(https://fonts.google.com/specimen/Asap);
+}
+@font-face {
+  font-family: "bitcheese";
+  src: url(https://www.dafont.com/bitcheese.font);
+}
+@font-face {
+  font-family: "cocogoose";
+  src: url(https://www.dafont.com/cocogoose.font) format("truetype");
+}
+.header {
+  display: flex;
+  min-height: 70px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 5rem;
+}
+
+.logo-header {
+  display: flex;
+  width: 6rem;
+}
+
+.nav .menu {
+  list-style-type: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav a {
+  color: rgba(239, 239, 239, 0.758);
+  padding-right: 10px;
+}
+
+nav a:hover {
+  color: #CC0000;
+  overflow: hidden;
+  transition: 0.5s ease;
+}
+
+@media (max-width: 1000px) {
+  .header {
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: center;
+  }
+  .menu {
+    padding: 2rem 2rem;
+  }
+}
+@media (max-width: 700px) {
+  .menu {
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: center;
+  }
+}
+@media (max-width: 450px) {
+  .menu {
+    padding: 1rem 1rem;
+  }
+}
+.footer-top {
+  padding: 0rem 12rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  gap: 4rem;
+}
+
+a {
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  font-size: 20px;
+  text-decoration: none;
+  color: rgba(239, 239, 239, 0.758);
+}
+
+a:hover {
+  color: #CC0000;
+  overflow: hidden;
+  transition: 0.5s ease;
+}
+
+ul {
+  list-style: none;
+}
+
+h3 {
+  color: #CC0000;
+  padding-top: none;
+  padding-bottom: 1rem;
+}
+
+.footer-bottom {
+  padding: 2rem 12rem;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 1000px) {
+  .footer-top {
+    display: grid;
+    padding-top: 2rem;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    align-self: center;
+  }
+}
+@media (max-width: 500px) {
+  .footer {
+    padding-top: 2rem;
+    padding: 0;
+  }
+  .footer-top {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+.contacto {
+  padding: 2rem 12rem;
+}
+
+.section-title {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-title p {
+  color: aliceblue;
+}
+.section-title h2 {
+  padding-bottom: 1rem;
+  margin-bottom: 3rem;
+  color: #CC0000;
+  border-bottom: 2px solid rgba(232, 231, 231, 0.067);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.form .form-group {
+  display: flex;
+  flex-direction: column;
+}
+.form .form-group label {
+  font-size: 20px;
+  color: aliceblue;
+  padding-bottom: 1rem;
+}
+.form .form-group input, .form .form-group textarea {
+  padding: 0.5rem 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.0666666667);
+  background-color: aliceblue;
+  border-radius: 0.5rem;
+}
+
+@media (max-width: 700px) {
+  .contacto {
+    padding: 1rem;
+  }
+}
+.btn {
+  color: #CC0000;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: 0;
+  font-size: 1rem;
+  align-self: end;
+  background-color: rgb(255, 255, 204);
+}
+.btn i {
+  color: white;
+}
+
+/*# sourceMappingURL=contacto.css.map */

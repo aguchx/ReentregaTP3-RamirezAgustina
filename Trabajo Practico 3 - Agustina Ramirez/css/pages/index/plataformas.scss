@@ -1,0 +1,59 @@
+.plataformas{
+    padding: 2rem 12rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 5rem;
+
+    .texto-plataforma{
+        h2{
+            color:#CC0000;
+            font-family: bitcheese;
+            font-size: 30pt;
+            padding-bottom: 1rem;
+        }
+        p{
+            color:rgb(255, 255, 204);
+        }
+    }
+    .iconos-plataforma{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-content: space-between;
+        gap: 2rem;
+      
+
+
+            a{
+                color:rgb(255, 255, 204);
+                font-size: 30pt;
+             
+    
+            }
+            
+        
+    }
+}
+
+
+
+
+@media  (max-width:700px){
+    .plataformas{
+        display:grid;
+        grid-row: inherit;
+        grid-template-columns: auto; 
+        padding: 2rem;
+    }
+}
+
+.iconos-plataforma{
+    padding: 3rem;
+}
+
+@media  (max-width:450px){
+
+
+
+}

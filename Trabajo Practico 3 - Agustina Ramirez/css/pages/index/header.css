@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 5rem;
+  color: whitesmoke;
+}
+.header .logo-header {
+  width: 6rem;
+}
+.header .nav .menu {
+  list-style-type: none;
+  display: flex;
+  gap: 2rem;
+}
+
+@media (max-width: 700px) {
+  .header {
+    position: fixed;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .nav {
+    flex-direction: row;
+    padding-bottom: 0;
+    padding-right: 20px;
+  }
+}
+
+/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Asap";
+  background-color: #1C1F44;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+@font-face {
+  font-family: "Asap";
+  src: url(https://fonts.google.com/specimen/Asap);
+}
+@font-face {
+  font-family: "bitcheese";
+  src: url(https://www.dafont.com/bitcheese.font);
+}
+@font-face {
+  font-family: "cocogoose";
+  src: url(https://www.dafont.com/cocogoose.font) format("truetype");
+}
+.proyectos-destacados {
+  padding: 2rem;
+  text-align: center;
+  color: rgb(255, 255, 204);
+}
+
+.titulo-proyecto {
+  font-size: 30pt;
+  padding-bottom: 4rem;
+}
+
+.proyecto-columnas {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 4rem;
+}
+.proyecto-columnas i {
+  color: rgb(255, 255, 204);
+  font-size: 30pt;
+}
+.proyecto-columnas h2 {
+  color: #CC0000;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 30pt;
+}
+
+@media (max-width: 700px) {
+  .proyecto-columnas {
+    display: grid;
+    grid-row: inherit;
+    grid-template-columns: auto;
+  }
+}
+.footer-bottom {
+  padding: 2rem 12rem;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  min-height: 70px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 5rem;
+}
+
+.logo-header {
+  display: flex;
+  width: 6rem;
+}
+
+.nav .menu {
+  list-style-type: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav a {
+  color: rgba(239, 239, 239, 0.758);
+  padding-right: 10px;
+}
+
+nav a:hover {
+  color: #CC0000;
+  overflow: hidden;
+  transition: 0.5s ease;
+}
+
+@media (max-width: 1000px) {
+  .header {
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: center;
+  }
+  .menu {
+    padding: 2rem 2rem;
+  }
+}
+@media (max-width: 700px) {
+  .menu {
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: center;
+    padding: 1.5rem 1.5rem;
+  }
+}
+@media (max-width: 450px) {
+  .menu {
+    padding: 1rem 1rem;
+  }
+}
+.hero {
+  padding: 2rem 8rem;
+  display: grid;
+  grid-template-columns: 1fr 1.25fr;
+  align-items: center;
+  gap: 2rem;
+}
+
+.texto-hero {
+  color: rgb(255, 255, 204);
+  font-size: 14pt;
+  text-align: center;
+  display: flexbox;
+}
+.texto-hero h1 {
+  color: #CC0000;
+  font-family: "bitcheese";
+  font-size: 60pt;
+  padding-bottom: 2rem;
+}
+
+@media (max-width: 700px) {
+  .hero {
+    margin: auto;
+    display: contents;
+  }
+  .img-hero {
+    display: none;
+  }
+  .texto-hero {
+    padding: 5rem;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: center;
+  }
+}
+.plataformas {
+  padding: 2rem 12rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 5rem;
+}
+.plataformas .texto-plataforma h2 {
+  color: #CC0000;
+  font-family: bitcheese;
+  font-size: 30pt;
+  padding-bottom: 1rem;
+}
+.plataformas .texto-plataforma p {
+  color: rgb(255, 255, 204);
+}
+.plataformas .iconos-plataforma {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.plataformas .iconos-plataforma a {
+  color: rgb(255, 255, 204);
+  font-size: 30pt;
+}
+
+@media (max-width: 700px) {
+  .plataformas {
+    display: grid;
+    grid-row: inherit;
+    grid-template-columns: auto;
+    padding: 2rem;
+  }
+}
+.iconos-plataforma {
+  padding: 3rem;
+}
+
+/*# sourceMappingURL=main.css.map */

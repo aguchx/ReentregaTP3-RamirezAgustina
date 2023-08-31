@@ -1,0 +1,28 @@
+.plataformas {
+  padding: 2rem 12rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 5rem;
+}
+.plataformas .texto-plataforma h2 {
+  color: #CC0000;
+  font-family: bitcheese;
+  font-size: 30pt;
+  padding-bottom: 1rem;
+}
+.plataformas .texto-plataforma p {
+  color: rgb(255, 255, 204);
+}
+.plataformas .iconos-plataforma {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: space-between;
+}
+.plataformas .iconos-plataforma a {
+  color: rgb(255, 255, 204);
+  font-size: 30pt;
+}
+
+/*# sourceMappingURL=plataformas.css.map */
